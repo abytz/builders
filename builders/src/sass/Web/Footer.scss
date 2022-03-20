@@ -1,0 +1,38 @@
+.footer {
+  background: #1785d3;
+}
+.footer a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: blue;
+}
+.btn {
+  padding: 1rem 2rem;
+  margin-bottom: 1%;
+  background-color: #037fff;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0.3rem;
+    left: 0;
+    bottom: 0;
+    background-color: #a4acc4;
+    transition: all 0.4s ease-in-out;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}

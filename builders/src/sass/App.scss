@@ -1,0 +1,72 @@
+@import "./Web/HomeScreen.scss";
+@import "./Web/Navbr.scss";
+@import "./Web/ProjectScreen.scss";
+@import "./Web/Footer.scss";
+@import "./Web/CostEstimate.scss";
+@import "./Web/Why-As.scss";
+@import "./Web/Project.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f3f6;
+  font-family: "M PLUS Rounded 3c", sans-serif;
+  font-size: 6rem;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #0056d898;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #777;
+}
+@media (max-width: 700px) {
+  body {
+    font-family: "M PLUS Rounded 3c", sans-serif;
+    font-size: 1rem;
+  }
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #0056d898;
+    border-radius: 100px;
+  }
+  body::-webkit-scrollbar-track {
+    background-color: #777;
+  }
+}
+.card:hover {
+  cursor: pointer;
+}
+.active {
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.5s ease;
+  border-radius: 2px;
+}
+.step{
+  height: auto;
+  width: auto;
+  border-radius: 100%;
+  padding: 20px;
+  background-color: #f1f3f6;
+}
+.step:hover{
+  color: #fff;
+  background-color: blue;
+  cursor: pointer;
+}
+.Active{
+  border-radius: 100%;
+  padding: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: blue;
+}

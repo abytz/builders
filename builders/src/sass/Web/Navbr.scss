@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+}
+.logo {
+  min-height: 60px;
+  width: 60px;
+}
+.logo:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.Nav {
+  padding-top: 7% !important;
+}
+@media (max-width: 900px) {
+  .Nav {
+    padding-top: 15% !important;
+  }
+}
+@media (max-width: 600px) {
+  .Nav {
+    padding-top:15% !important;
+  }
+}
+@media (max-width: 400px) {
+  .Nav {
+    padding-top: 28% !important;
+  }
+}
+.navbar {
+  background: #2874f0;
+  margin-bottom: 1%;
+}
+li {
+  font-size: 1.0rem;
+  font-weight: 600;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+
+h4 a:hover {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+h4 a {
+  font-weight: 400;
+  color: rgb(252, 252, 252);
+  margin-left: 10px;
+}
+@media (max-width:600px){
+  h4 a {
+    font-weight: 400;
+    color: rgb(252, 252, 252);
+    margin-left: 2px;
+  }
+}
+ul {
+  display: inline-flex;
+  list-style: none;
+}
+ul li {
+  max-width: 100%;
+  padding: 15px;
+  color: #fff;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:hover {
+  color: rgb(238, 233, 231);
+}
+ul li:hover {
+  opacity: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.5s ease;
+  border-radius: 3px;
+  z-index: 150;
+}
+.fa {
+  margin: auto;
+  margin-left: 4px;
+  color: blue;
+  // color: white;
+  cursor: pointer;
+}
+.fa-whatsapp {
+  color: green;
+}
+.sub-menu {
+  display: none;
+}
+ul li a:hover {
+  text-decoration: none;
+}
+ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background-color: #2874f0;
+  transition: 0.5s;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+ul li:hover .sub-menu ul li {
+  font-size: .8rem;
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  opacity: none;
+  text-align: left;
+}
+ul li:hover .sub-menu ul li:last-child {
+  border-bottom: none;
+}
+ul li:hover .sub-menu ul li a:hover {
+  text-decoration: none;
+  color: rgb(238, 233, 231);
+}
+
+.color {
+  background: cadetblue;
+}

@@ -1,0 +1,42 @@
+.img{
+  height: 200px;
+  width: auto;
+}
+.img1{
+  height: 200px;
+}
+.img-zoom:hover{
+  transform: scale(1.1);
+  transition: all .5s;
+}
+.carousel-image{
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  height: 80vh;
+  width: 100%;
+}
+.services-image{
+  height: 300px;
+  width: 100%;
+}
+.image-h1 {
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
+@media (max-width:900px){
+  .image-h1{
+    font-size: 40px;
+  }
+  .image-p{
+    font-size: smaller;
+  }
+  h2 a{
+    font-size: 20px;
+  }
+}
+.image-p {
+  color: #fff;
+  margin-top: 4vh;
+  font-size: 15px;
+}
