@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da4e0c0e.chunk.css",
+    "main.js": "/static/js/main.f63bca6b.chunk.js",
+    "main.js.map": "/static/js/main.f63bca6b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.60570f8d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.60570f8d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.426c6a9b.chunk.js": "/static/js/2.426c6a9b.chunk.js",
+    "static/js/2.426c6a9b.chunk.js.map": "/static/js/2.426c6a9b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.da4e0c0e.chunk.css.map": "/static/css/main.da4e0c0e.chunk.css.map",
+    "static/js/2.426c6a9b.chunk.js.LICENSE.txt": "/static/js/2.426c6a9b.chunk.js.LICENSE.txt",
+    "static/media/BookWithUs.66d2fa0e.jpg": "/static/media/BookWithUs.66d2fa0e.jpg",
+    "static/media/Building-Materials.2cbf6241.jpg": "/static/media/Building-Materials.2cbf6241.jpg",
+    "static/media/DetailPlan.330820df.jpg": "/static/media/DetailPlan.330820df.jpg",
+    "static/media/Eye.07f00baf.jpg": "/static/media/Eye.07f00baf.jpg",
+    "static/media/Meeting.c75cab43.jpg": "/static/media/Meeting.c75cab43.jpg",
+    "static/media/Quality.d1daaeed.jpg": "/static/media/Quality.d1daaeed.jpg",
+    "static/media/RaiseRequest.b68ff16d.jpg": "/static/media/RaiseRequest.b68ff16d.jpg",
+    "static/media/Tiles.362106bb.jpg": "/static/media/Tiles.362106bb.jpg",
+    "static/media/Tracking.3180dac7.jpg": "/static/media/Tracking.3180dac7.jpg",
+    "static/media/ZeroDelay.26ccf6a9.jpg": "/static/media/ZeroDelay.26ccf6a9.jpg",
+    "static/media/aggregate.a0aa30ad.jpg": "/static/media/aggregate.a0aa30ad.jpg",
+    "static/media/cement.e7d7f21c.jpg": "/static/media/cement.e7d7f21c.jpg",
+    "static/media/demo.4ef3b4df.mp4": "/static/media/demo.4ef3b4df.mp4",
+    "static/media/logo.eda950a4.jpg": "/static/media/logo.eda950a4.jpg",
+    "static/media/map.90cda5e4.jpg": "/static/media/map.90cda5e4.jpg",
+    "static/media/paint.a072e27f.jpg": "/static/media/paint.a072e27f.jpg",
+    "static/media/safemoney.e3d1b315.jpg": "/static/media/safemoney.e3d1b315.jpg",
+    "static/media/sanitaryware.4756fd82.jpg": "/static/media/sanitaryware.4756fd82.jpg",
+    "static/media/steel.13f79b06.jpg": "/static/media/steel.13f79b06.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60570f8d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.426c6a9b.chunk.js",
+    "static/css/main.da4e0c0e.chunk.css",
+    "static/js/main.f63bca6b.chunk.js"
+  ]
+}
